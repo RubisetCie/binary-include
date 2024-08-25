@@ -1,0 +1,22 @@
+/*
+ * Author: Matthieu Carteron <rubisetcie@gmail.com>
+ * date:   2024-08-24
+ *
+ * Provides output formatting macros.
+ */
+
+#ifndef FORMAT_H_INCLUDED
+#define FORMAT_H_INCLUDED
+
+#define HEADER            "@FMT_HEADER@"
+
+#define NAME_COMMENT      "@FMT_NAME_COMMENT@"
+#define SIZE_SUFFIX_CAMEL "@FMT_SIZE_SUFFIX_CAMEL@"
+#define SIZE_SUFFIX_MACRO "@FMT_SIZE_SUFFIX_UPPER@"
+#define SIZE_SUFFIX       "@FMT_SIZE_SUFFIX_LOWER@"
+#define SIZE_TYPE         "@FMT_SIZE_TYPE@"
+#define DATA_TYPE         "@FMT_DATA_TYPE@"
+#define DATA_INDENT       "@FMT_DATA_INDENT@"
+#define DATA_PER_LINE      @FMT_DATA_PER_LINE@
+
+#endif
