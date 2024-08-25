@@ -30,7 +30,7 @@ The `binclude` tool support the following options:
 - `-o`, `--output`: Specify the output file (can be source or header).
 - `-d`, `--header`: Specify a header file (won't be created otherwise).
 - `-w`, `--no-warning`: Suppress the auto-generated warning comment in output.
-- `-a`, `--no-allman`: Disable the Allman style of indentation and use the default K&R.
+- `-a`, `--no-allman`: Disable the Allman style of indentation and use the alternative K&R.
 - `-f`, `--decimal`: Format byte data as decimal rather than the default hexadecimal.
 - `-t`, `--text`: Write data as a text form rather than byte per byte.
 - `-m`, `--macro`: Create the size definition as a macro instead of a const.
